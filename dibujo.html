@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="http-equiv=X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="utf-8">
+    <title>canvas</title>
+    <style>
+.parte{
+  font-size: 50px;
+  font-family: helvetica;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1 class="text-center">ESTE ES MI PRIMER CANVAS</h1>
+      <p class="text-center">cuantas lineas quieres
+        <input type="text" id="texto_lineas"/>
+        <input type="button" value="Enviar" id="botoncito"/>
+      </p>
+      <p class="text-center">
+        Proyecto de prueba para probar algoritmo en JS
+        que busca dibujar dentro de un cuadro que muestra
+        un canvas.
+      </p>
+      <p class="text-center">
+        PORFAVOR INGRESE CUALQUIER NUMERO PARA
+        DIBUJAR LINEAS, SI DESEA LIMPIAR LA PANTALLA
+        PRESIONE F5 O RECARGUE LA PAGINA.
+      </p>
+      <canvas width="1000" height="500" id="dibujito"></canvas>
+      
+    </div>
+    <script src="dibujito.js">
+    </script>
+
+  </body>
+</html>
